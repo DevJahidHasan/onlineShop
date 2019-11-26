@@ -1,0 +1,81 @@
+<html>
+  <head>
+    
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/isotope.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+  <h1>Isotope - filtering</h1>
+
+<div class="button-group filters-button-group">
+  <button class="button is-checked" data-filter="*">show all</button>
+  <button class="button" data-filter=".metal">metal</button>
+  <button class="button" data-filter=".transition">transition</button>
+  <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
+  <button class="button" data-filter=":not(.transition)">not transition</button>
+  <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
+  <button class="button" data-filter="numberGreaterThan50">number > 50</button>
+  <button class="button" data-filter="ium">name ends with &ndash;ium</button>
+</div>
+
+<div class="grid row">
+  <div class="col-sm-3 element-item transition metal " data-category="transition">
+      <img src="img/carousel-1.jpg" class="img-responsive" alt="">
+    <a class="example-image-link" href="img/carousel-1.jpg" data-lightbox="example-set" data-title="">
+      Web Design
+    </a>
+  </div>
+  <div class="col-sm-3 element-item metalloid " data-category="metalloid">
+   
+      <img src="img/carousel-2.jpg" class="img-responsive" alt="">
+    <a class="example-image-link" href="img/carousel-2.jpg" data-lightbox="example-set" data-title="">
+      graphics
+    </a>
+  </div>
+  <div class="col-sm-3 element-item post-transition metal " data-category="post-transition">
+    
+      <img src="img/carousel-3.jpg" class="img-responsive" alt="">
+      <a class="example-image-link" href="img/carousel-3.jpg" data-lightbox="example-set" data-title="">
+        Web Design
+    </a>
+  </div>
+  <div class="col-sm-3 element-item transition metal " data-category="transition">
+   
+      <img src="img/carousel-1.jpg" class="img-responsive" alt="">
+    <a class="example-image-link" href="img/carousel-1.jpg" data-lightbox="example-set" data-title="">
+      Web Design
+    </a>
+  </div>
+  <div class="col-sm-3 element-item metalloid " data-category="metalloid">
+   
+      <img src="img/carousel-2.jpg" class="img-responsive" alt="">
+    <a class="example-image-link" href="img/carousel-2.jpg" data-lightbox="example-set" data-title="">
+      graphics
+    </a>
+  </div>
+  <div class="col-sm-3 element-item post-transition metal " data-category="post-transition">
+    
+      <img src="img/carousel-3.jpg" class="img-responsive" alt="">
+      <a class="example-image-link" href="img/carousel-3.jpg" data-lightbox="example-set" data-title="">
+        Web Design
+    </a>
+  </div>
+  
+  
+  
+  </div>
+</div>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/isotope.custome.js"></script>
+<script src="js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
+
